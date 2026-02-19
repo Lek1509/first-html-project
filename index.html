@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--
   DOCTYPE declares this comment as HTML5
 -->
@@ -18,130 +18,131 @@
 
     <title>My First HTML Page</title>
     <!-- Title shown on the browser tab -->
-</head>
+  </head>
 
-<body>
-  <!-- All visible content goes here -->
+  <body>
+    <!-- All visible content goes here -->
 
-  <!-- ================== HEADER ================= -->
-  <header>
-    <h1>Welcome to My First Website</h1>
-    <p>This website is created using basic HTML.</p>
+    <!-- ================== HEADER ================= -->
+    <header>
+      <h1>Welcome to My First Website</h1>
+      <p>This website is created using basic HTML.</p>
+      <hr />
+    </header>
+
+    <!-- ================== NAVIGATION ================= -->
+    <nav>
+      <!-- Navigation links -->
+      <a href="#about">About</a> | <a href="#subjects">Subject</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+
     <hr />
-  </header>
-
-   <!-- ================== NAVIGATION ================= -->
-   <nav>
-     <!-- Navigation links -->
-     <a href="#about">About</a> | <a href="#subjects">Subject</a> | 
-     <a href="#contact">Contact</a>
-   </nav>
-
-   <hr />
 
     <!-- ================== ABOUT SECTION ================= -->
     <section id="about">
-     <h2>About Me</h2>
+      <h2>About Me</h2>
 
-     <p>
-        Hello! My name is <strong>Lexter Lampas</strong>. I am learning 
+      <p>
+        Hello! My name is <strong>Lexter Lampas</strong>. I am learning
         <em>HTML</em> as my first step in web development.
-     </p>
+      </p>
 
-     <p>
+      <p>
         HTML stand for
         <abbr title="HyperText Markup Language">HTML</abbr>.
-        </p>
+      </p>
     </section>
 
     <hr />
 
     <!-- ================== LIST SECTION ================= -->
-     <section id="subjects">
-        <h2>Subjects I Like</h2>
+    <section id="subjects">
+      <h2>Subjects I Like</h2>
 
-        <!-- Unordered List -->
-         <ul>
-            <li>Web Development</li>
-            <li>Programming</li>
-            <li>Networking</li>
-        </ul>
+      <!-- Unordered List -->
+      <ul>
+        <li>Web Development</li>
+        <li>Programming</li>
+        <li>Networking</li>
+      </ul>
 
-        <h3>Steps to Create a Web Page</h3>
+      <h3>Steps to Create a Web Page</h3>
 
-        <!-- Ordered List -->
-         <ol>
-            <li>Create an HTML file</li>
-            <li>Write HTML code</li>
-            <li>Open it in a browser</li>
-        </ol>
+      <!-- Ordered List -->
+      <ol>
+        <li>Create an HTML file</li>
+        <li>Write HTML code</li>
+        <li>Open it in a browser</li>
+      </ol>
     </section>
 
     <hr />
 
     <!-- ================== IMAGE SECTION ================= -->
     <section>
-        <h2>Sample Image</h2>
+      <h2>Sample Image</h2>
 
-        <img
-            src="https://via.placeholder.com/300"
-            alt="Sample placeholder image"
-            width="300"/>
+      <img
+        src="https://via.placeholder.com/300"
+        alt="Sample placeholder image"
+        width="300"
+      />
     </section>
 
     <hr />
 
     <!-- ================== TABLE SECTION ================= -->
-     <section>
-        <h2>My Weekly Schedule</h2>
+    <section>
+      <h2>My Weekly Schedule</h2>
 
-        <table border="1" cellpadding="10">
-            <tr>
-                <th>Day</th>
-                <th>Activity</th>
-            </tr>
-            <tr>
-                <td>Monday</td>
-                <td>HTML Study</td>
-            </tr>
-            <tr>
-                <td>Tuesday</td>
-                <td>Practice Coding</td>
-            </tr>
-        </table>
+      <table border="1" cellpadding="10">
+        <tr>
+          <th>Day</th>
+          <th>Activity</th>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>HTML Study</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Practice Coding</td>
+        </tr>
+      </table>
     </section>
 
-        <hr />
+    <hr />
 
-        <!-- ================== FORM SECTION ================= -->
-        <section id="contact">
-            <h2>Contact Me</h2>
+    <!-- ================== FORM SECTION ================= -->
+    <section id="contact">
+      <h2>Contact Me</h2>
 
-            <form>
-                <!-- Name input -->
-                 <label for="name">Name:</label><br />
-                <input type="text" id="name" name="name" /><br /><br />
+      <form>
+        <!-- Name input -->
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br /><br />
 
-                <!-- Email input -->
-                 <label for="email">Email:</label><br />
-                <input type="email" id="email" name="email" /><br /><br />
+        <!-- Email input -->
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br /><br />
 
-                <!-- Message input -->
-                 <label for="message">Message:</label><br />
-                 <textarea id="message" name="message" rows="4" cols="30"></textarea>
-                <br /><br />
+        <!-- Message input -->
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" cols="30"></textarea>
+        <br /><br />
 
-                <!-- Submit button -->
-                <button type="submit">Send</button>
-            </form>
-        </section>
+        <!-- Submit button -->
+        <button type="submit">Send</button>
+      </form>
+    </section>
 
-        <hr />
+    <hr />
 
-        <!-- ================== FOOTER ================= -->
-        <footer>
-            <p>&copy; 2026 My first HTML Project</p>
-            <p>Created for learning purposes.</p>
-        </footer>
-    </body>
+    <!-- ================== FOOTER ================= -->
+    <footer>
+      <p>&copy; 2026 My first HTML Project</p>
+      <p>Created for learning purposes.</p>
+    </footer>
+  </body>
 </html>
